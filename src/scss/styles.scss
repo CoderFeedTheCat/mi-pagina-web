@@ -602,21 +602,6 @@ body {
 
 .bento-card__icon--area {
   position: relative;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: url('../branding/monograma-jmot-escudo.webp') top left / contain no-repeat;
-    opacity: 0.15;
-    pointer-events: none;
-    z-index: 0;
-  }
-  
-  svg {
-    position: relative;
-    z-index: 1;
-  }
 }
 
 .footer-branding {
