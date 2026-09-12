@@ -134,6 +134,10 @@ module.exports = (env, argv) => {
           }
         },
         {
+          test: /\.txt$/i,
+          type: 'asset/source'
+        },
+        {
           test: /\.(woff|woff2|eot|ttf|otf)$/i,
           type: 'asset/resource',
           generator: {

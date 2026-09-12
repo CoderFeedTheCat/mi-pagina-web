@@ -52,20 +52,35 @@
 
     </article>
 
+    <div class="bento-section-title">
+      <h2>Perfil y Trayectoria Profesional</h2>
+    </div>
+
     <!-- ACERCA DE MÍ - 3 columnas -->
-    <article class="bento-card bento-card--span-3 bento-card--no-tilt" 
+    <article class="bento-card bento-card--span-3 bento-card--no-tilt"
              data-modal="acerca"
              data-modal-title="Acerca de mí"
-             data-modal-content="Personalizable.">
+             role="button" tabindex="0"
+             aria-label="Acerca de mí"
+             aria-haspopup="dialog">
       <h2 class="bento-card__title">Acerca de mí</h2>
-      <p class="bento-card__text">Personalizable.</p>
+      <p class="bento-card__subtitle">Comprender la complejidad humana con el respaldo de la ciencia y la calidez de la ética.</p>
+      <p class="bento-card__text">Mi objetivo es ofrecer un espacio seguro, estructurado y altamente técnico donde cada evaluación, intervención o estrategia —ya sea en el ámbito clínico, educativo u organizacional— se traduzca en soluciones reales, fomentando el desarrollo funcional y el bienestar integral de cada persona o institución.</p>
+      <span class="bento-card__more">Más detalles</span>
     </article>
 
+    <div class="bento-section-title">
+      <h2>Servicios y Áreas de Intervención</h2>
+      <p class="bento-section-title__subtitle">Conoce los diferentes frentes de acción donde aplicamos rigor científico, ética y compromiso humano.</p>
+    </div>
+
     <!-- ENFOQUE PROFESIONAL - 1 columna -->
-    <article class="bento-card" 
+    <article class="bento-card"
              data-modal="enfoque"
              data-modal-title="Enfoque Profesional"
-             data-modal-content="Integración de herramientas de evaluación psicológica basadas en evidencia científica. Modelos cognitivos contemporáneos aplicados a la práctica clínica y educativa. Acompañamiento ético y confidencial en cada proceso terapéutico.">
+             role="button" tabindex="0"
+             aria-label="Enfoque Profesional"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="10"></circle>
@@ -79,10 +94,12 @@
     </article>
 
     <!-- ÁREA CLÍNICA - 1 columna -->
-    <article class="bento-card" 
+    <article class="bento-card"
              data-modal="clinica"
              data-modal-title="Área Clínica"
-             data-modal-content="Evaluación y psicoterapia individual orientada a la regulación emocional. Intervención en trastornos de ansiedad, depresión y manejo del estrés. Técnicas basadas en evidencia científica y práctica clínica actualizada.">
+             role="button" tabindex="0"
+             aria-label="Área Clínica"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green bento-card__icon--area">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M12 2a8 8 0 0 0-8 8c0 6 8 12 8 12s8-6 8-12a8 8 0 0 0-8-8z"></path>
@@ -97,10 +114,12 @@
     </article>
 
     <!-- ÁREA EDUCATIVA 1 - 1 columna -->
-    <article class="bento-card bento-card--area-educativa" 
+    <article class="bento-card bento-card--area-educativa"
              data-modal="educativa1"
              data-modal-title="Área Educativa y Psicopedagógica"
-             data-modal-content="Diagnóstico y evaluación psicométrica. Evaluación del rendimiento académico y dificultades de aprendizaje. Estrategias personalizadas para el desarrollo cognitivo y emocional del estudiante.">
+             role="button" tabindex="0"
+             aria-label="Área Educativa y Psicopedagógica"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--area">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
@@ -108,32 +127,36 @@
         </svg>
       </div>
       <h2 class="bento-card__title">Área Educativa y Psicopedagógica</h2>
-      <p class="bento-card__text">Diagnóstico, tu evaluación cont menterara y psicopedagógico</p>
+      <p class="bento-card__text">Diagnóstico, seguimiento, diseño de estrategias y programas</p>
       <span class="bento-card__more">Más detalles</span>
     </article>
 
-    <!-- ÁREA EDUCATIVA 2 - 1 columna -->
-    <article class="bento-card bento-card--area-educativa" 
-             data-modal="educativa2"
-             data-modal-title="Área Educativa y Psicopedagógica"
-             data-modal-content="Diagnóstico psicométrico, estrategias de aprendizaje e intervención escolar. Evaluación de habilidades cognitivas y académicas. Desarrollo de planes de intervención personalizados.">
+    <!-- EVALUACIÓN Y PSICOMETRÍA - 1 columna -->
+    <article class="bento-card"
+             data-modal="psicometria"
+             data-modal-title="Evaluación y Psicometría"
+             role="button" tabindex="0"
+             aria-label="Evaluación y Psicometría"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green bento-card__icon--area">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
         </svg>
       </div>
-      <h2 class="bento-card__title">Área Educativa y Psicopedagógica</h2>
+      <h2 class="bento-card__title">Evaluación y Psicometría</h2>
       <ul class="check-list">
-        <li>Diagnóstico psicométrico, estrategias</li>
+        <li>Medición estandarizada del comportamiento</li>
       </ul>
       <span class="bento-card__more">Más detalles</span>
     </article>
 
     <!-- INVESTIGACIÓN - 1 columna -->
-    <article class="bento-card bento-card--investigacion" 
+    <article class="bento-card bento-card--investigacion"
              data-modal="investigacion"
              data-modal-title="Investigación"
-             data-modal-content="Diseño experimental cuantitativo y análisis estadístico aplicado. Metodología de investigación en psicología clínica y educativa. Producción científica y publicaciones académicas.">
+             role="button" tabindex="0"
+             aria-label="Investigación"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green bento-card__icon--area">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M18 20V10"></path>
@@ -149,10 +172,12 @@
     </article>
 
     <!-- ORGANIZACIONAL Y COMUNITARIA - 1 columna -->
-    <article class="bento-card bento-card--organizacional" 
+    <article class="bento-card bento-card--organizacional"
              data-modal="organizacional"
              data-modal-title="Organizacional y Comunitaria"
-             data-modal-content="Diagnóstico de clima laboral, talleres psicoeducativos y salud mental comunitaria. Intervención organizacional para mejorar el bienestar laboral. Programas de prevención y promoción de la salud mental.">
+             role="button" tabindex="0"
+             aria-label="Organizacional y Comunitaria"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green bento-card__icon--area">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
@@ -167,10 +192,12 @@
     </article>
 
     <!-- COMPROMISO ÉTICO 1 - 1 columna -->
-    <article class="bento-card" 
+    <article class="bento-card"
              data-modal="manuales"
              data-modal-title="Manuales Diagnósticos"
-             data-modal-content="Uso del DSM-5-TR y CIE-11 para la verificación de criterios diagnósticos.">
+             role="button" tabindex="0"
+             aria-label="Manuales Diagnósticos"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
@@ -187,22 +214,26 @@
     </article>
 
     <!-- COMPROMISO ÉTICO 2 - ESTADÍSTICA - 1 columna -->
-    <article class="bento-card stat-card" 
+    <article class="bento-card stat-card"
              data-modal="compromiso2"
              data-modal-title="Compromiso Ético y Confidencialidad"
-             data-modal-content="100% de compromiso con la ética profesional y confidencialidad absoluta en todos los procesos de atención psicológica.">
+             role="button" tabindex="0"
+             aria-label="Compromiso Ético y Confidencialidad"
+             aria-haspopup="dialog">
       <div class="stat-card__number">100%</div>
       <h2 class="bento-card__title">Compromiso Ético</h2>
       <ul class="check-list">
-        <li>Compromiso Ético</li>
+        <li>Confidencialidad absoluta</li>
       </ul>
     </article>
 
     <!-- ALIA UNIVERSIDADES - 1 columna -->
-    <article class="bento-card" 
+    <article class="bento-card"
              data-modal="aliat"
              data-modal-title="Aliat Universidades"
-             data-modal-content="Colaboración con instituciones universitarias para la formación profesional en psicología. Alianzas estratégicas para la investigación y el desarrollo académico.">
+             role="button" tabindex="0"
+             aria-label="Aliat Universidades"
+             aria-haspopup="dialog">
       <div class="bento-card__icon bento-card__icon--green">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
@@ -211,10 +242,14 @@
       </div>
       <h2 class="bento-card__title">Aliat Universidades</h2>
       <ul class="check-list">
-        <li>Colaboración universitaria</li>
+        <li>Mi formación en la universidad</li>
       </ul>
       <span class="bento-card__more">Más detalles</span>
     </article>
+
+    <div class="bento-section-title">
+      <h2>Canales de Comunicación y Consulta</h2>
+    </div>
 
     <!-- CTA SECUNDARIO - 3 columnas -->
     <article class="bento-card cta-section bento-card--span-3" 
@@ -256,13 +291,9 @@
   </footer>
 
   <!-- MODAL REUTILIZABLE -->
-  <div class="modal fade modal-glass" id="bentoModal" tabindex="-1" aria-labelledby="bentoModalLabel" aria-hidden="true">
+  <div class="modal fade modal-glass" id="bentoModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="bentoModalLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
         <div class="modal-body" id="bentoModalBody"></div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

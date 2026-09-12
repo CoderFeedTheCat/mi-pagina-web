@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import isologoUrl from '@/assets/images/isologo_imagen.png';
+import isologoUrl from '@/assets/images/isologo_imagen.webp';
 
 export function initHeroThreeJS() {
   const container = document.getElementById('hero-threejs');
